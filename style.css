@@ -1,0 +1,88 @@
+body {
+    background: #FFF;
+    color: #000;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+a:link, a:visited, a:active {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+}
+a:hover, a:focus {
+    border-bottom: 0;
+}
+h1 {
+    font-size: 1.75em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+h2 {
+    color: #999;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 100px;
+}
+ol li {
+    list-style-type: upper-roman;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+li span {
+    color: #999;
+}
+ol li ol {
+    padding: 30px 0 30px 60px;
+}
+ol li ol li {
+    list-style-type: upper-alpha;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+form {
+    margin-top: -30px;
+}
+input {
+    outline: 0;
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    font-size: 1em;
+}
+input[type='text'], input[type='email'] {
+    width: 300px;
+}
+input[type='text'] {
+    float: left;
+}
+input[type='email'] {
+    float: left;
+    margin-left: 10px;
+}
+input[type='text']:focus, input[type='email']:focus {
+    border-color: #999;
+}
+input[type='submit'] {
+    float: left;
+    background: #F2F2F2;
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    margin-left: 10px;
+    width: 135px;
+    color: #000;
+    cursor: pointer;
+}
+p {
+    clear: both;
+    padding-top: 50px;
+    text-align: center;
+    font-size: .5em;
+    line-height: 1.8em;
+    color: #666;
+}
+.container {
+    width: 800px;
+    margin: 100px auto 0;
+}
+.thank-you p {
+    font-size: 1.25em;
+}
